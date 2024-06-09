@@ -13,10 +13,9 @@ void scanfInteger(char* string, int* num){
     } while (scanResult != 1);
 }
 
-// Function to allocate array and take size input
 int* allocateAndInput(int* size) {
     char* input = "Enter array size: ";
-    char enterNum[50]; // Buffer for prompt string with index
+    char enterNum[50]; 
     scanfInteger(input, size);
     int byteLength = *size * sizeof(int);
     int* list = (int*)malloc(byteLength);
@@ -37,7 +36,7 @@ int main() {
     int size;
     int* list = allocateAndInput(&size);
     for (int i = 0; i < size; i++){
-        printf("%d ", list[i]); // Adding space for better readability
+        printf("%d ", list[i]); 
     }
     printf("\n");
     free(list);
