@@ -7,7 +7,7 @@ void Tribe::sortTribe() {
 }
 void Tribe::findYoungest() {
     Survivor* s = _survivorsArray[0];
-    int sIndex = 1;
+    int sIndex = 0;
     if (_numSurvivors > 1){
         for (int i = 1; i < _numSurvivors; i++){
             if (_survivorsArray[i]->getAge() < s->getAge()){
