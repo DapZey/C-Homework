@@ -6,7 +6,7 @@ void Tribe::sortTribe() {
     std::cout<<"sorted";
 }
 void Tribe::findYoungest() {
-    Survivor* s = _survivorsArray[1];
+    Survivor* s = _survivorsArray[0];
     int sIndex = 1;
     if (_numSurvivors > 1){
         for (int i = 1; i < _numSurvivors; i++){
