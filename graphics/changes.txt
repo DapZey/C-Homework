@@ -1,0 +1,13 @@
+Changes made:
+
+1) changed the cube to red
+
+2) changed window pos to 800, 200
+
+3) added two more lines in different colors, each adjacent to each other
+
+4) added a triangle and a blob
+
+5) Two changes made using methods we learned in the lecture:
+    a) rotated the cube 45 degrees around the z axis
+    b) changed the position of the camera to be further back
